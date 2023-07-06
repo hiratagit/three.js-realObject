@@ -1,7 +1,7 @@
 import './style.css';
 import * as THREE from "three";
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import backImg from "./envimage/back.png";    // Vercelへのデプロイを想定してimport
+import backImg from "./envimage/back.png";
 import frontImg from "./envimage/front.png";
 import downImg from "./envimage/down.png";
 import upImg from "./envimage/up.png";
