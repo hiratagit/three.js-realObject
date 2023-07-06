@@ -24,12 +24,12 @@ renderer.setSize(sizes.width, sizes.height);
 renderer.setPixelRatio( Math.min(window.devicePixelRatio, 2) );
 
 const urls = [
-    "envimage/right.png",  
-    "envimage/left.png",     
-    "envimage/up.png",      
-    "envimage/down.png",  
-    "envimage/front.png",   
-    "envimage/back.png",    
+    "./envImage/right.png",  
+    "./envImage/left.png",     
+    "./envImage/up.png",      
+    "./envImage/down.png",  
+    "./envImage/front.png",   
+    "./envImage/back.png",    
 ];
 
 const loader = new THREE.CubeTextureLoader();
