@@ -1,12 +1,12 @@
 import './style.css';
 import * as THREE from "three";
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-// import backImg from "./envimage/back.png";
-// import frontImg from "./envimage/front.png";
-// import downImg from "./envimage/down.png";
-// import upImg from "./envimage/up.png";
-// import leftImg from "./envimage/left.png";
-// import ritghtImg from "./envimage/right.png";
+import backImg from "./envimage/back.png";
+import frontImg from "./envimage/front.png";
+import downImg from "./envimage/down.png";
+import upImg from "./envimage/up.png";
+import leftImg from "./envimage/left.png";
+import ritghtImg from "./envimage/right.png";
 
 const canvas = document.getElementById('webgl');
 const scene = new THREE.Scene();
