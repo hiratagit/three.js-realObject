@@ -6,7 +6,7 @@ import frontImg from "./envimage/front.png";
 import downImg from "./envimage/down.png";
 import upImg from "./envimage/up.png";
 import leftImg from "./envimage/left.png";
-import ritghtImg from "./envimage/back.png";
+import ritghtImg from "./envimage/right.png";
 
 const canvas = document.getElementById('webgl');
 const scene = new THREE.Scene();
